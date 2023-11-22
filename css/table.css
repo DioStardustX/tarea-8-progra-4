@@ -1,0 +1,82 @@
+﻿.registro {
+    width: 93%;
+    text-align: left;
+    min-width: 110px;
+}
+
+    .registro tr, .registro th {
+        height: 40px;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    .registro tbody {
+        overflow-x: auto;
+        overflow-y: auto;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        font-size: 14px;
+    }
+
+    .registro th, .registro td, .registro tr, .registro thead, .registro tbody {
+        display: block;
+    }
+
+
+    .registro td, .registro th {
+        float: left;
+        background:none;
+    }
+
+        .registro td:nth-child(1),
+        .registro th:nth-child(1) {
+            width: 15%;
+        }
+
+        .registro td:nth-child(2),
+        .registro th:nth-child(2) {
+            width: 40%;
+        }
+
+        .registro td:nth-child(3),
+        .registro th:nth-child(3) {
+            width: 15%;
+        }
+
+        .registro td:nth-child(4),
+        .registro th:nth-child(4) {
+            width: 15%;
+        }
+
+        .registro td:nth-child(5),
+        .registro th:nth-child(5) {
+            width: 15%;
+        }
+
+    .registro thead, .registro tfoot {
+        background-color: #ff5e00;
+        border: 1px solid white;
+        color: white;
+        font-size: 20px;
+        opacity: 0.7;
+    }
+
+
+    .registro tbody tr:hover {
+        color: black;
+        font-size: 20px;
+        background-color: lightgray;
+        opacity: 0.7;
+    }
+
+    .registro caption {
+        height: 35px;
+        text-align: center;
+        vertical-align: central;
+        padding: 7px;
+        color: white;
+        font-size: 25px;
+        background-color: transparent;
+
+    }

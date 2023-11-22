@@ -1,0 +1,214 @@
+﻿<!--A Design by W3layouts
+   Author: W3layout
+   Author URL: http://w3layouts.com
+   License: Creative Commons Attribution 3.0 Unported
+   License URL: http://creativecommons.org/licenses/by/3.0/
+   -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Examen 2 Floristería Formulario para Ordenar :: By w3layouts</title>
+    <!-- Meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta
+      name="keywords"
+      content="Florist Order Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template"
+    />
+    <script>
+      addEventListener(
+        "load",
+        function () {
+          setTimeout(hideURLbar, 0);
+        },
+        false
+      );
+      function hideURLbar() {
+        window.scrollTo(0, 1);
+      }
+    </script>
+    <!-- Meta tags -->
+    <!--stylesheets-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/table.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/tabla.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//style sheet end here-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1 class="header-w3ls">Floristería Formulario para Ordenar</h1>
+    <div class="art-bothside">
+      <form>
+        <div class="info-agile-persnal">
+          <h3>Información Personal</h3>
+          <div class="form-group">
+            <div class="form-left-w3ls">
+              <input type="text" class="form-control" placeholder="Name" />
+            </div>
+            <div class="form-left-w3ls">
+              <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="form-group">
+            <div class="form-mid-w3ls">
+              <select
+                id="prov"
+                class="form-control country-buttom"
+                onchange="cambioSelect('P')"
+              >
+                <option value="">Select Provincia</option>
+              </select>
+            </div>
+            <div class="form-mid-w3ls">
+              <select
+                id="can"
+                class="form-control country-buttom"
+                onchange="cambioSelect('C')"
+              >
+                <option value="">Select Cantón</option>
+              </select>
+            </div>
+
+            <div class="form-mid-w3ls">
+              <select id="dis" class="form-control country-buttom">
+                <option value="">Select Distrito</option>
+              </select>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="form-group">
+            <div class="form-left-w3ls">
+              <input
+                class="pin-bottom"
+                type="text"
+                name="dirsenias"
+                placeholder="Señas"
+                required=""
+              />
+            </div>
+            <div class="form-right-w3ls">
+              <div class="form-right-w3ls">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Teléfono"
+                />
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="info-agile-persnal">
+          <h3>Detalle de la Orden</h3>
+          <div class="sub-agile-info">
+            <h6>Seleccione su producto Favorito</h6>
+          </div>
+          <div class="form-group-three">
+            <div class="form-left-three-w3l">
+              <div class="iner-left">
+                <label>Cantidad</label>
+              </div>
+              <div class="form-inn">
+                <select id="cantidad" class="opt-select country-buttom">
+                  <option value="0">Select</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-mid-three-w3l">
+              <div class="iner-left">
+                <label>Producto</label>
+              </div>
+              <div class="form-inn">
+                <select id="producto" class="opt-select country-buttom">
+                  <option value="">Select Producto</option>
+                  <option value="Flor1">Ramo Tulipanes</option>
+                  <option value="Flor2">Ramo Rosas</option>
+                  <option value="Flor3">Ramo Gardenia</option>
+                  <option value="Flor4">Ramo Hortensia</option>
+                  <option value="Flor5">Ramo Gerbera</option>
+                  <option value="Arreglo1">Tributo</option>
+                  <option value="Arreglo2">Arreglo Orquídeas</option>
+                  <option value="Arreglo3">Bouquet Novia</option>
+                  <option value="Arreglo4">Arreglo Primaveral</option>
+                  <option value="Arreglo5">Arreglo Centro Mesa</option>
+                  <option value="Caja1">Caja Floral Tropical</option>
+                  <option value="Caja2">Caja Floral con Sangría</option>
+                  <option value="Caja3">Caja Floral con Vino</option>
+                  <option value="Caja4">Caja Girasoles</option>
+                  <option value="Caja5">Caja Tulipanes</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-right-three-w3l">
+              <div class="iner-left">
+                <label>Tamaño</label>
+              </div>
+              <div class="form-inn">
+                <select id="tamanio" class="opt-select country-buttom">
+                  <option value="">Select Tamaño</option>
+                  <option value="Small">Pequeño</option>
+                  <option value="Medium">Mediano</option>
+                  <option value="Large">Grande</option>
+                </select>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="set-reset">
+          <input
+            type="button"
+            value="Registrar"
+            onclick="registrarProducto()"
+          />
+          <input type="reset" value="Limpiar" onclick="Limpiar()" />
+          <input
+            type="text"
+            id="txtTotal"
+            class="txtTotal"
+            readonly
+            placeholder="Total a Pagar"
+          />
+        </div>
+
+        <div class="clear"></div>
+        <br />
+
+        <div class="container">
+          <table class="registro" id="registro">
+            <caption>
+              Producto Seleccionado
+            </caption>
+            <thead>
+              <tr>
+                <th>Cantidad</th>
+                <th>Producto</th>
+                <th>Tamaño</th>
+                <th>Precio</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody id="datos"></tbody>
+          </table>
+        </div>
+      </form>
+    </div>
+    <div class="copy">
+      <p>
+        &copy;2022 Florist Order Form. All Rights Reserved | Design by
+        <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a>
+      </p>
+    </div>
+    <script type="text/javascript" src="js/facturar.js"></script>
+  </body>
+</html>
